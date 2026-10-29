@@ -1,0 +1,34 @@
+{
+  "revision": 1793259854,
+  "accent": "#0a84ff",
+  "glass": 60,
+  "anime_dock": true,
+  "servers": [
+    {
+      "name": "Server 1",
+      "movie": "https://vidsrc.sh/embed/movie?tmdb={tmdb_id}",
+      "tv": "https://vidsrc.sh/embed/tv?tmdb={tmdb_id}&season={season}&episode={episode}",
+      "enabled": true
+    },
+    {
+      "name": "Server 2",
+      "movie": "https://embedmaster.link/movie/{tmdb_id}?skin=onyx&welcome_page=on&autoplay=on",
+      "tv": "https://embedmaster.link/tv/{tmdb_id}/{season}/{episode}?skin=onyx&welcome_page=on&autoplay=on",
+      "enabled": true
+    },
+    {
+      "name": "Server 3",
+      "movie": "https://vidrock.net/movie/{tmdb_id}",
+      "tv": "https://vidrock.net/tv/{tmdb_id}/{season}/{episode}",
+      "enabled": true
+    }
+  ],
+  "anime": {
+    "enabled": true,
+    "api": "https://graphql.anilist.co",
+    "main": "https://tryembed.us.cc/embed/anime/mal/{MALid}/{number}/sub?skin=jw",
+    "fallback": "https://tryembed.us.cc/embed/anime/mal/{MALid}/{number}/dub?skin=jw",
+    "tip1": "Click here to change dub or sub",
+    "tip2": "Tip: If an ads appears, tap or click close it. Don't worry, it won't affect your playback."
+  }
+}
