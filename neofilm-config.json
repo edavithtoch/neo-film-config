@@ -1,23 +1,17 @@
 {
-  "revision": 1793260229,
+  "revision": 1793261037,
   "accent": "#ff0000",
   "glass": 60,
   "anime_dock": true,
   "servers": [
     {
       "name": "Server 1",
-      "movie": "https://vidsrc.sh/embed/movie?tmdb={tmdb_id}",
-      "tv": "https://vidsrc.sh/embed/tv?tmdb={tmdb_id}&season={season}&episode={episode}",
-      "enabled": true
-    },
-    {
-      "name": "Server 2",
       "movie": "https://embedmaster.link/movie/{tmdb_id}?skin=onyx&welcome_page=on&autoplay=on",
       "tv": "https://embedmaster.link/tv/{tmdb_id}/{season}/{episode}?skin=onyx&welcome_page=on&autoplay=on",
       "enabled": true
     },
     {
-      "name": "Server 3",
+      "name": "Server 2",
       "movie": "https://vidrock.net/movie/{tmdb_id}",
       "tv": "https://vidrock.net/tv/{tmdb_id}/{season}/{episode}",
       "enabled": true
